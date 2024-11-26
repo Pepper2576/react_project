@@ -1,0 +1,17 @@
+.home-body {
+  background-image: url('../imgs/home-page-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(4, 20em);
+  grid-template-rows: repeat(4, 10em);
+}
+
+@media (max-width: 990px) {
+  .home-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,11 @@
+.card-container {
+  background-image: url('../imgs/product-page-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 99px) {
+  .card-container {
+    flex-direction: column;
+  }
+}
