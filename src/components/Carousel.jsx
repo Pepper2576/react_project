@@ -13,9 +13,12 @@ export default function Carousel() {
         data-bs-ride='carousel'
       >
         <div class='carousel-inner'>
-          {CAROUSELDATA.map((item) => {
+          {CAROUSELDATA.map((item, index) => {
             return (
-              <div class='carousel-item active' key={item.id}>
+              <div
+                className={`carousel-item ${index === 0 ? 'active' : ''}`}
+                key={item.id}
+              >
                 <img src={item.img} class='d-block w-100' alt={item.title} />
               </div>
             );

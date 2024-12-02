@@ -26,22 +26,12 @@ const Navbar = () => {
         <div className='collapse navbar-collapse' id='navbarNavDropdown'>
           <ul className='navbar-nav'>
             <li className='nav-item'>
-              <NavLink
-                className='nav-link'
-                exact
-                to='/react_project'
-                activeClassName='active'
-              >
+              <NavLink className='nav-link' exact to='/react_project'>
                 Home
               </NavLink>
             </li>
             <li className='nav-item'>
-              <NavLink
-                className='nav-link'
-                exact
-                to='/portfolio'
-                activeClassName='active'
-              >
+              <NavLink className='nav-link' exact to='/portfolio'>
                 Portfolio
               </NavLink>
             </li>
