@@ -29,7 +29,7 @@ const Navbar = () => {
               <NavLink
                 className='nav-link'
                 exact
-                to='/'
+                to='/react_project'
                 activeClassName='active'
               >
                 Home
